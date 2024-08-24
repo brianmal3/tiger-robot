@@ -1,0 +1,16 @@
+{
+    "python.analysis.extraPaths": [
+        "/Users/aubreymalabie/Work/liza-work/fnb-recon-robot/."
+    ],
+    "cSpell.words": [
+        "FNBAPI",
+        "fpdf",
+        "psycopg",
+        "pytest",
+        "PYTHONPATH",
+        "robocorp",
+        "rpaframework",
+        "truststore"
+    ],
+    "python.terminal.activateEnvironment": false
+}
