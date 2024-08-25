@@ -36,11 +36,12 @@ def start():
     if status == "dev":
         url = os.getenv("LOCAL_URL")
 
-    print(f"{tag} Environment status: {status}")
+    print(f"{tag} Environment processing status: {status}")
 
     try:
         f_url = f"{url}fnb/getFakeTransactions"
         print(f"{tag} Connecting to Backend ...: {f_url}")
+        
         resp = requests.get(f_url)
         resp_json = resp.json()
         status = resp_json["status"]
