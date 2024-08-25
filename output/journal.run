@@ -11,3 +11,174 @@
 {"when":1724497795,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
 {"when":1724497795,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
 {"when":1724497796,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724560799,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724560799,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.055s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724560799,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 81580/81582)"}
+{"when":1724560799,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724560800,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.547s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724560801,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.928s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724560801,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724560801,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724560801,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[81635:rcc]"}
+{"when":1724560801,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 1 to 1 ... map[81635:python3.10]"}
+{"when":1724560809,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724560809,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724560810,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724560849,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724560849,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.048s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724560849,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.008s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 82833/82834)"}
+{"when":1724560849,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.020s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724560850,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.321s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724560850,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.714s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724560850,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724560850,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724560851,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[82865:rcc]"}
+{"when":1724560851,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 1 to 1 ... map[82865:python3.10]"}
+{"when":1724560859,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724560859,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724560860,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724561046,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724561046,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.041s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724561046,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 87854/87855)"}
+{"when":1724561047,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724561047,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.313s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724561048,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.747s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724561048,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724561048,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724561048,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[87897:python3.10]"}
+{"when":1724561056,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724561056,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724561057,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724561381,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724561381,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.047s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724561381,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 95788/95799)"}
+{"when":1724561381,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.010s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724561381,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.298s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724561382,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.800s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724561382,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724561382,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724561382,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[95835:rcc]"}
+{"when":1724561383,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 1 to 1 ... map[95835:python3.10]"}
+{"when":1724561390,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724561390,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724561392,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724561513,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724561513,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.047s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724561513,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 99091/99092)"}
+{"when":1724561513,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724561514,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.312s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724561514,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.760s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724561514,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724561514,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724561515,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[99107:python3.10]"}
+{"when":1724561523,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724561523,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724561524,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724561596,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724561596,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.074s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724561596,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 1440/1441)"}
+{"when":1724561596,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724561596,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.283s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724561597,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.776s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724561597,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724561597,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724561598,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[1495:python3.10]"}
+{"when":1724561606,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724561606,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724561607,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724561894,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724561894,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.063s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724561894,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 8658/8668)"}
+{"when":1724561894,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724561895,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.292s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724561895,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.718s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724561895,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724561895,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724561896,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[8702:python3.10]"}
+{"when":1724561904,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724561904,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724561905,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724562230,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724562230,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.045s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724562230,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 17256/17257)"}
+{"when":1724562230,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.009s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724562231,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.295s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724562231,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.740s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724562231,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724562231,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724562232,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[17311:python3.10]"}
+{"when":1724562240,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724562240,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724562241,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724562504,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724562504,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.043s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724562504,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 23987/23988)"}
+{"when":1724562504,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.009s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724562505,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.310s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724562506,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.754s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724562506,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724562506,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724562506,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[24012:python3.10]"}
+{"when":1724562514,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724562514,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724562515,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724562718,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724562718,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.045s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724562718,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 29246/29247)"}
+{"when":1724562718,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724562718,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.309s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724562719,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.758s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724562719,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724562719,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724562720,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[29297:python3.10]"}
+{"when":1724562727,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724562727,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724562729,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724562749,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724562749,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.057s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724562749,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 30043/30044)"}
+{"when":1724562749,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724562749,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.288s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724562750,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.675s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724562750,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724562750,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724562751,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[30081:python3.10]"}
+{"when":1724562759,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724562759,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724562760,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724562861,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724562861,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.041s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724562861,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 32831/32832)"}
+{"when":1724562861,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724562861,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.296s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724562862,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.760s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724562862,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724562862,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724562863,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[32864:python3.10]"}
+{"when":1724562870,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724562870,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724562871,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724562878,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724562879,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.051s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724562879,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 33285/33288)"}
+{"when":1724562879,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.020s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724562879,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.309s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724562880,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.713s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724562880,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724562880,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724562880,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[33333:python3.10]"}
+{"when":1724562888,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724562888,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724562889,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724562894,"controller":"rcc.robocorpcode","event":"start task","detail":"name=Run Task from=/Users/aubreymalabie/Work/liza-work/tiger-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724562894,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.054s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724562894,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 33707/33709)"}
+{"when":1724562894,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"94c6f1885dad772a\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724562895,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.335s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724562895,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.724s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724562895,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724562895,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724562896,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[33752:python3.10]"}
+{"when":1724562904,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724562904,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724562905,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}

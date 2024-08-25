@@ -1,265 +1,510 @@
 V 0.0.4
-T 2024-08-24T11:09:54.311+00:00
-ID 1|63f6a0bc-6209-11ef-aebf-3e78c7450a75
+T 2024-08-25T05:14:56.565+00:00
+ID 1|f7ee50d4-62a0-11ef-a165-3e78c7450a75
 I "sys.platform=darwin"
 I "python=3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:39:40) [Clang 15.0.7 ]"
 M a:"tasks.py"
-SR a|0.011
+SR a|0.005
 M c:"Collect tasks"
 M d:"setup"
 M e:""
 P b:c|d|e|e|0
-ST b|0.011
+ST b|0.005
 M f:"regular"
 M g:"\nCollecting tasks from: tasks.py\n"
-C f|g|0.013
-M h:"PASS"
-ET h|e|0.015
-M j:"minimal_task"
-M k:"tasks"
-M l:"/Users/aubreymalabie/Work/liza-work/fnb-recon-robot/tasks.py"
-M m:null
-P i:j|k|l|m|4
-ST i|0.015
-M n:"============================ "
-C f|n|0.015
-M o:"Running: "
-C f|o|0.015
-M p:"task_name"
-C p|j|0.015
-M q:" =============================\n"
-C f|q|0.016
-M r:"METHOD"
-SE i|r|0.016
-P s:j|k|l|e|5
-M t:"message"
-M u:"str"
-M v:"'Hello'"
-AS s|t|u|v|0.017
-P w:j|k|l|e|6
-M x:"'Hello World!'"
-AS w|t|u|x|0.018
-EE r|h|0.019
-C p|j|0.02
-M y:" status: "
-C f|y|0.02
-M z:"PASS\n"
-C f|z|0.02
-M A:"================================================================================\n"
-C f|A|0.02
-ET h|e|0.021
-M C:"Teardown tasks"
-M D:"teardown"
-P B:C|D|e|e|0
-ST B|0.021
-M E:"Process snapshot"
-SPS E|0.021
-M F:"System information:\nMemory: Total: 16.0 G, Available: 658.5 M, Used: 96.0 %\nCPUs: 10"
-P G:e|e|e|e|0
-L I|F|G|0|0.94
-M H:"Current Process: python3.10 (pid: 82899, status: running)\nCommand Line: /Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/bin/python3.10 -m robocorp.tasks run tasks.py\nStarted: 13:09:51\nParent pid: 82871\nResident Set Size: 34.9 M\nVirtual Memory Size: 33.5 G"
-L I|H|G|0|0.949
-M I:"OutputToPortThread|Thread ID: 13086621696 (daemon)"
-STD I|0.949
-M J:"/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/threading.py"
-M K:"_bootstrap"
-M L:"self._bootstrap_inner()"
-TBE J|973|K|L
-M M:"self"
-M N:"Thread"
-M O:"<Thread(OutputToPortThread, started daemon 13086621696)>"
-TBV M|N|O
-M P:"_bootstrap_inner"
-M Q:"self.run()"
-TBE J|1016|P|Q
-TBV M|N|O
-M R:"run"
-M S:"self._target(*self._args, **self._kwargs)"
-TBE J|953|R|S
-TBV M|N|O
-M T:"/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/tasks/_log_output_setup.py"
-M U:"write_in_thread"
-M V:"msg = q.get()"
-TBE T|73|U|V
-M W:"msg"
-M X:"'ST B|0.009\\n'"
-TBV W|u|X
-M Y:"client_socket"
-M Z:"socket"
-M 0:"<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60058), raddr=('127.0.0.1', 59746)>"
-TBV Y|Z|0
-M 1:"log"
-M 2:"module"
-M 3:"<module 'robocorp.log' from '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/__init__.py'>"
-TBV 1|2|3
-M 4:"port_in_env"
-M 5:"'59746'"
-TBV 4|u|5
-M 6:"q"
-M 7:"Queue"
-M 8:"<queue.Queue object at 0x10ddc39a0>"
-TBV 6|7|8
-M 9:"/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/queue.py"
-M aa:"get"
-M ab:"self.not_empty.wait()"
-TBE 9|171|aa|ab
-TBV M|7|8
-M ac:"block"
-M ad:"bool"
-M ae:"True"
-TBV ac|ad|ae
-M af:"timeout"
-M ag:"NoneType"
-M ah:"None"
-TBV af|ag|ah
-M ai:"wait"
-M aj:"waiter.acquire()"
-TBE J|320|ai|aj
-M ak:"Condition"
-M al:"<Condition(<unlocked _thread.lock object at 0x10ebdb480>, 1)>"
-TBV M|ak|al
-TBV af|ag|ah
-M am:"waiter"
-M an:"lock"
-M ao:"<locked _thread.lock object at 0x10ecfb5c0>"
-TBV am|an|ao
-M ap:"saved_state"
-TBV ap|ag|ah
-M aq:"gotit"
-M ar:"False"
-TBV aq|ad|ar
-ETD 0.951
-M as:"MainThread|Thread ID: 8676262464 (non daemon)"
-STD as|0.951
-M at:"/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/__init__.py"
-M au:"process_snapshot"
-M av:"robo_logger.process_snapshot()"
-TBE at|270|au|av
-M aw:"logger_instances"
-M ax:"dict"
-M ay:"{<robocorp.log._robo_logger._RoboLogger object at 0x10de229e0>: 1, <robocorp.log._robo_logger._RoboLogger object at 0x10ddc31f0>: 1}"
-TBV aw|ax|ay
-M az:"robo_logger"
-M aA:"_RoboLogger"
-M aB:"<robocorp.log._robo_logger._RoboLogger object at 0x10de229e0>"
-TBV az|aA|aB
-M aC:"/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/_robo_logger.py"
-M aD:"new_func"
-M aE:"return func(self, *args, **kwargs)"
-TBE aC|20|aD|aE
-TBV M|aA|aB
-M aF:"args"
-M aG:"tuple"
-M aH:"()"
-TBV aF|aG|aH
-M aI:"kwargs"
-M aJ:"{}"
-TBV aI|ax|aJ
-M aK:"func"
-M aL:"function"
-M aM:"<function _RoboLogger.process_snapshot at 0x10ecbb400>"
-TBV aK|aL|aM
-M aN:"return self._robot_output_impl.process_snapshot(hide_vars)"
-TBE aC|416|au|aN
-TBV M|aA|aB
-M aO:"hide_vars"
-TBV aO|ad|ar
-M aP:"/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py"
-M aQ:"self._dump_threads(hide_vars)"
-TBE aP|748|au|aQ
-TBV aO|ad|ar
-TBV 1|2|3
-M aR:"entry_id"
-M aS:"'ps_0'"
-TBV aR|u|aS
-M aT:"entry_type"
-M aU:"'process_snapshot'"
-TBV aT|u|aU
-M aV:"psutil"
-M aW:"<module 'psutil' from '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/psutil/__init__.py'>"
-TBV aV|2|aW
-M aX:"AccessDenied"
-M aY:"type"
-M aZ:"<class 'psutil.AccessDenied'>"
-TBV aX|aY|aZ
-M a0:"NoSuchProcess"
-M a1:"<class 'psutil.NoSuchProcess'>"
-TBV a0|aY|a1
-M a2:"ZombieProcess"
-M a3:"<class 'psutil.ZombieProcess'>"
-TBV a2|aY|a3
-M a4:"curr_process"
-M a5:"Process"
-M a6:"psutil.Process(pid=82899, name='python3.10', status='running', started='13:09:51')"
-TBV a4|a5|a6
-M a7:"log_info"
-M a8:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x10f85e710>"
-TBV a7|aL|a8
-M a9:"memory_info"
-M ba:"'Total: 16.0 G, Available: 658.5 M, Used: 96.0 %'"
-TBV a9|u|ba
-M bb:"child_i"
-M bc:"int"
-M bd:"0"
-TBV bb|bc|bd
-M be:"child"
-TBV be|a5|a6
-M bf:"name"
-M bg:"'python3.10'"
-TBV bf|u|bg
-M bh:"status"
-M bi:"'running'"
-TBV bh|u|bi
-M bj:"create_time"
-M bk:"'13:09:51'"
-TBV bj|u|bk
-M bl:"ppid"
-M bm:"'82871'"
-TBV bl|u|bm
-M bn:"cmdline"
-M bo:"'/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/bin/python3.10 -m robocorp.tasks run tasks.py'"
-TBV bn|u|bo
-M bp:"rss"
-M bq:"'34.9 M'"
-TBV bp|u|bq
-M br:"vms"
-M bs:"'33.5 G'"
-TBV br|u|bs
-M bt:"proc_memory_info"
-M bu:"pmem"
-M bv:"pmem(rss=36585472, vms=35980800000, pfaults=20674, pageins=40)"
-TBV bt|bu|bv
-M bw:"'Current Process: python3.10 (pid: 82899, status: running)\\nCommand Line: /Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/bin/python3.10 -m robocorp.tasks run tasks.py\\nStarted: 13:09:51\\nParent pid: 82871\\nResident Set Size: 34.9 M\\nVirtual Memory Size: 33.5 G'"
-TBV t|u|bw
-M bx:"_RoboOutputImpl"
-M by:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x10ec00ca0>"
-TBV M|bx|by
-M bz:"_dump_threads"
-M bA:"stack.append((f, f.f_lineno))"
-TBE aP|769|bz|bA
-TBV M|bx|by
-TBV aO|ad|ar
-M bB:"thread_id"
-M bC:"8676262464"
-TBV bB|bc|bC
-M bD:"frame"
-M bE:"<frame at 0x10ed2c440, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 773, code _dump_threads>"
-TBV bD|bD|bE
-M bF:"thread"
-M bG:"_MainThread"
-M bH:"<_MainThread(MainThread, started 8676262464)>"
-TBV bF|bG|bH
-M bI:"title"
-M bJ:"'MainThread|Thread ID: 8676262464 (non daemon)'"
-TBV bI|u|bJ
-M bK:"f"
-M bL:"<frame at 0x7f9ad795dc10, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/tasks/_commands.py', line 494, code run>"
-TBV bK|bD|bL
-M bM:"stack"
-M bN:"list"
-M bO:"[(<frame at 0x10ec6e0e0, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x10eb61440, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x7f9af807d690, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x7f9ae08056b0, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x10ed2c440, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_791b5f1e/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
-TBV bM|bN|bO
-ETD 0.953
-EPS 0.953
-ET h|e|0.963
-ER h|0.963
+C f|g|0.006
+M h:"stderr"
+M i:"2024-08-25 07:15:03,429 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.\n"
+C h|i|6.864
+M k:"load_dotenv"
+M l:"dotenv.main"
+M m:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/dotenv/main.py"
+P j:k|l|m|e|321
+M n:"METHOD"
+SE j|n|7.034
+M o:"dotenv_path"
+M p:"NoneType"
+M q:"None"
+EA o|p|q
+M r:"stream"
+EA r|p|q
+M s:"verbose"
+M t:"bool"
+M u:"False"
+EA s|t|u
+M v:"override"
+EA v|t|u
+M w:"interpolate"
+M x:"True"
+EA w|t|x
+M y:"encoding"
+M z:"str"
+M A:"'utf-8'"
+EA y|z|A
+P B:k|l|m|e|356
+R B|t|x|7.036
+M C:"PASS"
+EE n|C|7.036
+ET C|e|7.036
+M E:"start"
+M F:"tasks"
+M G:"/Users/aubreymalabie/Work/liza-work/tiger-robot/tasks.py"
+M H:"Connect to Backend to get Transactions"
+P D:E|F|G|H|31
+ST D|7.036
+M I:"================================ "
+C f|I|7.036
+M J:"Running: "
+C f|J|7.036
+M K:"task_name"
+C K|E|7.036
+M L:" ================================\n"
+C f|L|7.037
+SE D|n|7.037
+P M:E|F|G|e|34
+M N:"status"
+M O:"'dev'"
+AS M|N|z|O|7.037
+P P:E|F|G|e|35
+M Q:"url"
+M R:"''"
+AS P|Q|z|R|7.037
+M T:"if status == 'dev'"
+P S:T|F|G|e|36
+M U:"IF_SCOPE"
+SE S|U|7.037
+EA N|z|O
+P V:E|F|G|e|37
+M W:"'http://localhost:8080/'"
+AS V|Q|z|W|7.038
+EE U|C|7.038
+M X:"stdout"
+M Y:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Environment status: dev"
+C X|Y|7.038
+M Z:"\n"
+C X|Z|7.038
+P 0:E|F|G|e|42
+M 1:"f_url"
+M 2:"'http://localhost:8080/fnb/getFakeTransactions'"
+AS 0|1|z|2|7.038
+M 3:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Connecting to Backend ...: http://localhost:8080/fnb/getFakeTransactions"
+C X|3|7.038
+C X|Z|7.038
+M 5:"get"
+M 6:"requests.api"
+M 7:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/requests/api.py"
+P 4:5|6|7|e|62
+SE 4|n|7.038
+EA Q|z|2
+M 8:"params"
+EA 8|p|q
+M 9:"kwargs"
+M aa:"dict"
+M ab:"{}"
+EA 9|aa|ab
+P ac:5|6|7|e|73
+M ad:"Response"
+M ae:"<Response [200]>"
+R ac|ad|ae|7.076
+EE n|C|7.076
+P af:E|F|G|e|44
+M ag:"resp"
+AS af|ag|ad|ae|7.076
+M ai:"Response.json"
+M aj:"requests.models"
+M ak:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/requests/models.py"
+P ah:ai|aj|ak|e|947
+SE ah|n|7.076
+EA 9|aa|ab
+P al:ai|aj|ak|e|974
+M am:"{'status': 200, 'message': 'Returning 19 transactions for batch 1724562904524', 'list': [{'id': 1724562904336, 'amount': 789000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904168', 'reference': 'Reference 0', 'discount': 2}, {'id': 1724562903747, 'amount': 103000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904328', 'reference': 'Reference 1', 'discount': 6}, {'id': 1724562904181, 'amount': 704000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904007', 'reference': 'Reference 2', 'discount': 6}, {'id': 1724562904059, 'amount': 949000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903662', 'reference': 'Reference 3', 'discount': 5}, {'id': 1724562904522, 'amount': 540000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904122', 'reference': 'Reference 4', 'discount': 7}, {'id': 1724562903841, 'amount': 682000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904313', 'reference': 'Reference 5', 'discount': 7}, {'id': 1724562904268, 'amount': 291000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904052', 'reference': 'Reference 6', 'discount': 8}, {'id': 1724562904048, 'amount': 145000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904325', 'reference': 'Reference 7', 'discount': 8}, {'id': 1724562903718, 'amount': 742000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904256', 'reference': 'Reference 8', 'discount': 8}, {'id': 1724562904077, 'amount': 10000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903728', 'reference': 'Reference 9', 'discount': 2}, {'id': 1724562903802, 'amount': 953000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903911', 'reference': 'Reference 10', 'discount': 2}, {'id': 1724562904076, 'amount': 939000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903643', 'reference': 'Reference 11', 'discount': 7}, {'id': 1724562903867, 'amount': 614000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903700', 'reference': 'Reference 12', 'discount': 5}, {'id': 1724562903904, 'amount': 814000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904251', 'reference': 'Reference 13', 'discount': 4}, {'id': 1724562904132, 'amount': 688000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904630', 'reference': 'Reference 14', 'discount': 7}, {'id': 1724562904431, 'amount': 183000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904581', 'reference': 'Reference 15', 'discount': 2}, {'id': 1724562904552, 'amount': 287000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904515', 'reference': 'Reference 16', 'discount': 3}, {'id': 1724562904616, 'amount': 1000000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904258', 'reference': 'Reference 17', 'discount': 2}, {'id': 1724562903813, 'amount': 923000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903837', 'reference': 'Reference 18', 'discount': 8}]}"
+R al|aa|am|7.077
+EE n|C|7.077
+P an:E|F|G|e|45
+M ao:"resp_json"
+AS an|ao|aa|am|7.077
+P ap:E|F|G|e|46
+M aq:"int"
+M ar:"200"
+AS ap|N|aq|ar|7.077
+P as:E|F|G|e|47
+M at:"message"
+M au:"'Returning 19 transactions for batch 1724562904524'"
+AS as|at|z|au|7.077
+P av:E|F|G|e|48
+M aw:"list"
+M ax:"[{'id': 1724562904336, 'amount': 789000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904168', 'reference': 'Reference 0', 'discount': 2}, {'id': 1724562903747, 'amount': 103000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904328', 'reference': 'Reference 1', 'discount': 6}, {'id': 1724562904181, 'amount': 704000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904007', 'reference': 'Reference 2', 'discount': 6}, {'id': 1724562904059, 'amount': 949000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903662', 'reference': 'Reference 3', 'discount': 5}, {'id': 1724562904522, 'amount': 540000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904122', 'reference': 'Reference 4', 'discount': 7}, {'id': 1724562903841, 'amount': 682000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904313', 'reference': 'Reference 5', 'discount': 7}, {'id': 1724562904268, 'amount': 291000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904052', 'reference': 'Reference 6', 'discount': 8}, {'id': 1724562904048, 'amount': 145000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904325', 'reference': 'Reference 7', 'discount': 8}, {'id': 1724562903718, 'amount': 742000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904256', 'reference': 'Reference 8', 'discount': 8}, {'id': 1724562904077, 'amount': 10000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903728', 'reference': 'Reference 9', 'discount': 2}, {'id': 1724562903802, 'amount': 953000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903911', 'reference': 'Reference 10', 'discount': 2}, {'id': 1724562904076, 'amount': 939000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903643', 'reference': 'Reference 11', 'discount': 7}, {'id': 1724562903867, 'amount': 614000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903700', 'reference': 'Reference 12', 'discount': 5}, {'id': 1724562903904, 'amount': 814000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904251', 'reference': 'Reference 13', 'discount': 4}, {'id': 1724562904132, 'amount': 688000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904630', 'reference': 'Reference 14', 'discount': 7}, {'id': 1724562904431, 'amount': 183000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904581', 'reference': 'Reference 15', 'discount': 2}, {'id': 1724562904552, 'amount': 287000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904515', 'reference': 'Reference 16', 'discount': 3}, {'id': 1724562904616, 'amount': 1000000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904258', 'reference': 'Reference 17', 'discount': 2}, {'id': 1724562903813, 'amount': 923000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903837', 'reference': 'Reference 18', 'discount': 8}]"
+AS av|aw|aw|ax|7.077
+P ay:E|F|G|e|49
+M az:"transactions"
+AS ay|az|aw|ax|7.078
+M aA:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  message: Returning 19 transactions for batch 1724562904524"
+C X|aA|7.078
+C X|Z|7.078
+M aB:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  status: 200"
+C X|aB|7.078
+C X|Z|7.078
+M aD:"if status == 200"
+P aC:aD|F|G|e|54
+SE aC|U|7.078
+EA N|aq|ar
+M aE:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  response is OK : \ud83c\udf38 19 transactions delivered! \ud83c\udf38"
+C X|aE|7.078
+C X|Z|7.078
+M aG:"for tx in list"
+P aF:aG|F|G|e|58
+M aH:"FOR"
+SE aF|aH|7.078
+M aJ:"Step: for tx in list"
+P aI:aJ|F|G|e|58
+M aK:"FOR_STEP"
+SE aI|aK|7.078
+M aL:"tx"
+M aM:"{'id': 1724562904336, 'amount': 789000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904168', 'reference': 'Reference 0', 'discount': 2}"
+EA aL|aa|aM
+M aN:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904336 \ud83c\udf4e amount: 789000"
+C X|aN|7.079
+C X|Z|7.079
+EE aK|C|7.079
+SE aI|aK|7.079
+M aO:"{'id': 1724562903747, 'amount': 103000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904328', 'reference': 'Reference 1', 'discount': 6}"
+EA aL|aa|aO
+M aP:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562903747 \ud83c\udf4e amount: 103000"
+C X|aP|7.079
+C X|Z|7.079
+EE aK|C|7.079
+SE aI|aK|7.079
+M aQ:"{'id': 1724562904181, 'amount': 704000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904007', 'reference': 'Reference 2', 'discount': 6}"
+EA aL|aa|aQ
+M aR:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904181 \ud83c\udf4e amount: 704000"
+C X|aR|7.079
+C X|Z|7.079
+EE aK|C|7.079
+SE aI|aK|7.079
+M aS:"{'id': 1724562904059, 'amount': 949000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903662', 'reference': 'Reference 3', 'discount': 5}"
+EA aL|aa|aS
+M aT:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904059 \ud83c\udf4e amount: 949000"
+C X|aT|7.079
+C X|Z|7.079
+EE aK|C|7.079
+SE aI|aK|7.079
+M aU:"{'id': 1724562904522, 'amount': 540000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904122', 'reference': 'Reference 4', 'discount': 7}"
+EA aL|aa|aU
+M aV:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904522 \ud83c\udf4e amount: 540000"
+C X|aV|7.08
+C X|Z|7.08
+EE aK|C|7.08
+SE aI|aK|7.08
+M aW:"{'id': 1724562903841, 'amount': 682000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904313', 'reference': 'Reference 5', 'discount': 7}"
+EA aL|aa|aW
+M aX:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562903841 \ud83c\udf4e amount: 682000"
+C X|aX|7.08
+C X|Z|7.08
+EE aK|C|7.08
+SE aI|aK|7.08
+M aY:"{'id': 1724562904268, 'amount': 291000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904052', 'reference': 'Reference 6', 'discount': 8}"
+EA aL|aa|aY
+M aZ:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904268 \ud83c\udf4e amount: 291000"
+C X|aZ|7.08
+C X|Z|7.08
+EE aK|C|7.08
+SE aI|aK|7.08
+M a0:"{'id': 1724562904048, 'amount': 145000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904325', 'reference': 'Reference 7', 'discount': 8}"
+EA aL|aa|a0
+M a1:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904048 \ud83c\udf4e amount: 145000"
+C X|a1|7.08
+C X|Z|7.08
+EE aK|C|7.08
+SE aI|aK|7.08
+M a2:"{'id': 1724562903718, 'amount': 742000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904256', 'reference': 'Reference 8', 'discount': 8}"
+EA aL|aa|a2
+M a3:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562903718 \ud83c\udf4e amount: 742000"
+C X|a3|7.081
+C X|Z|7.081
+EE aK|C|7.081
+SE aI|aK|7.081
+M a4:"{'id': 1724562904077, 'amount': 10000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903728', 'reference': 'Reference 9', 'discount': 2}"
+EA aL|aa|a4
+M a5:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904077 \ud83c\udf4e amount: 10000"
+C X|a5|7.081
+C X|Z|7.081
+EE aK|C|7.081
+SE aI|aK|7.081
+M a6:"{'id': 1724562903802, 'amount': 953000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903911', 'reference': 'Reference 10', 'discount': 2}"
+EA aL|aa|a6
+M a7:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562903802 \ud83c\udf4e amount: 953000"
+C X|a7|7.081
+C X|Z|7.081
+EE aK|C|7.081
+SE aI|aK|7.081
+M a8:"{'id': 1724562904076, 'amount': 939000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903643', 'reference': 'Reference 11', 'discount': 7}"
+EA aL|aa|a8
+M a9:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904076 \ud83c\udf4e amount: 939000"
+C X|a9|7.081
+C X|Z|7.081
+EE aK|C|7.081
+SE aI|aK|7.081
+M ba:"{'id': 1724562903867, 'amount': 614000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903700', 'reference': 'Reference 12', 'discount': 5}"
+EA aL|aa|ba
+M bb:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562903867 \ud83c\udf4e amount: 614000"
+C X|bb|7.081
+C X|Z|7.081
+EE aK|C|7.081
+SE aI|aK|7.081
+M bc:"{'id': 1724562903904, 'amount': 814000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904251', 'reference': 'Reference 13', 'discount': 4}"
+EA aL|aa|bc
+M bd:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562903904 \ud83c\udf4e amount: 814000"
+C X|bd|7.082
+C X|Z|7.082
+EE aK|C|7.082
+SE aI|aK|7.082
+M be:"{'id': 1724562904132, 'amount': 688000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904630', 'reference': 'Reference 14', 'discount': 7}"
+EA aL|aa|be
+M bf:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904132 \ud83c\udf4e amount: 688000"
+C X|bf|7.082
+C X|Z|7.082
+EE aK|C|7.082
+SE aI|aK|7.082
+M bg:"{'id': 1724562904431, 'amount': 183000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904581', 'reference': 'Reference 15', 'discount': 2}"
+EA aL|aa|bg
+M bh:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904431 \ud83c\udf4e amount: 183000"
+C X|bh|7.082
+C X|Z|7.082
+EE aK|C|7.082
+SE aI|aK|7.082
+M bi:"{'id': 1724562904552, 'amount': 287000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904515', 'reference': 'Reference 16', 'discount': 3}"
+EA aL|aa|bi
+M bj:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904552 \ud83c\udf4e amount: 287000"
+C X|bj|7.082
+C X|Z|7.082
+EE aK|C|7.082
+SE aI|aK|7.083
+M bk:"{'id': 1724562904616, 'amount': 1000000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562904258', 'reference': 'Reference 17', 'discount': 2}"
+EA aL|aa|bk
+M bl:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562904616 \ud83c\udf4e amount: 1000000"
+C X|bl|7.083
+C X|Z|7.083
+EE aK|C|7.083
+SE aI|aK|7.083
+M bm:"{'id': 1724562903813, 'amount': 923000, 'batch_id': 1724562904524, 'booking_date': '2024-08-25T05:15:03.633Z', 'value_date': '2024-08-25T05:15:03.633Z', 'credit_debit_indicator': 'C', 'posted': False, 'remittance_info': 'Remittance info', 'transaction_id': '1724562903837', 'reference': 'Reference 18', 'discount': 8}"
+EA aL|aa|bm
+M bn:"\ud83e\udd66\ud83e\udd66\ud83e\udd66 FNB Robot \ud83e\udd66  Transaction: \ud83c\udf4e batch_id: 1724562904524 \ud83c\udf4e id: 1724562903813 \ud83c\udf4e amount: 923000"
+C X|bn|7.083
+C X|Z|7.083
+EE aK|C|7.083
+EE aH|C|7.083
+C X|Z|7.083
+C X|Z|7.083
+EE U|C|7.083
+EE n|C|7.083
+C K|E|7.084
+M bo:" status: "
+C f|bo|7.084
+M bp:"PASS\n"
+C f|bp|7.084
+M bq:"================================================================================\n"
+C f|bq|7.084
+ET C|e|7.085
+M bs:"Teardown tasks"
+M bt:"teardown"
+P br:bs|bt|e|e|0
+ST br|7.085
+M bu:"Process snapshot"
+SPS bu|7.085
+M bv:"System information:\nMemory: Total: 16.0 G, Available: 648.1 M, Used: 96.0 %\nCPUs: 10"
+P bw:e|e|e|e|0
+L I|bv|bw|0|7.237
+M bx:"Current Process: python3.10 (pid: 33752, status: running)\nCommand Line: /Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/bin/python3.10 -m robocorp.tasks run tasks.py\nStarted: 07:14:56\nParent pid: 33709\nResident Set Size: 121.2 M\nVirtual Memory Size: 35.1 G"
+L I|bx|bw|0|7.254
+M by:"OutputToPortThread|Thread ID: 13075398656 (daemon)"
+STD by|7.254
+M bz:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/threading.py"
+M bA:"_bootstrap"
+M bB:"self._bootstrap_inner()"
+TBE bz|973|bA|bB
+M bC:"self"
+M bD:"Thread"
+M bE:"<Thread(OutputToPortThread, started daemon 13075398656)>"
+TBV bC|bD|bE
+M bF:"_bootstrap_inner"
+M bG:"self.run()"
+TBE bz|1016|bF|bG
+TBV bC|bD|bE
+M bH:"run"
+M bI:"self._target(*self._args, **self._kwargs)"
+TBE bz|953|bH|bI
+TBV bC|bD|bE
+M bJ:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/tasks/_log_output_setup.py"
+M bK:"write_in_thread"
+M bL:"msg = q.get()"
+TBE bJ|73|bK|bL
+M bM:"msg"
+M bN:"'ST br|7.08\\n'"
+TBV bM|z|bN
+M bO:"client_socket"
+M bP:"socket"
+M bQ:"<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52271), raddr=('127.0.0.1', 58753)>"
+TBV bO|bP|bQ
+M bR:"log"
+M bS:"module"
+M bT:"<module 'robocorp.log' from '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/__init__.py'>"
+TBV bR|bS|bT
+M bU:"port_in_env"
+M bV:"'58753'"
+TBV bU|z|bV
+M bW:"q"
+M bX:"Queue"
+M bY:"<queue.Queue object at 0x10dc07310>"
+TBV bW|bX|bY
+M bZ:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/queue.py"
+M b0:"self.not_empty.wait()"
+TBE bZ|171|5|b0
+TBV bC|bX|bY
+M b1:"block"
+TBV b1|t|x
+M b2:"timeout"
+TBV b2|p|q
+M b3:"wait"
+M b4:"waiter.acquire()"
+TBE bz|320|b3|b4
+M b5:"Condition"
+M b6:"<Condition(<unlocked _thread.lock object at 0x10e496a00>, 1)>"
+TBV bC|b5|b6
+TBV b2|p|q
+M b7:"waiter"
+M b8:"lock"
+M b9:"<locked _thread.lock object at 0x10e746fc0>"
+TBV b7|b8|b9
+M ca:"saved_state"
+TBV ca|p|q
+M cb:"gotit"
+TBV cb|t|u
+ETD 7.256
+M cc:"MainThread|Thread ID: 8671609408 (non daemon)"
+STD cc|7.257
+M cd:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/__init__.py"
+M ce:"process_snapshot"
+M cf:"robo_logger.process_snapshot()"
+TBE cd|270|ce|cf
+M cg:"logger_instances"
+M ch:"{<robocorp.log._robo_logger._RoboLogger object at 0x10da6c7c0>: 1, <robocorp.log._robo_logger._RoboLogger object at 0x10dc055d0>: 1}"
+TBV cg|aa|ch
+M ci:"robo_logger"
+M cj:"_RoboLogger"
+M ck:"<robocorp.log._robo_logger._RoboLogger object at 0x10da6c7c0>"
+TBV ci|cj|ck
+M cl:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/_robo_logger.py"
+M cm:"new_func"
+M cn:"return func(self, *args, **kwargs)"
+TBE cl|20|cm|cn
+TBV bC|cj|ck
+M co:"args"
+M cp:"tuple"
+M cq:"()"
+TBV co|cp|cq
+TBV 9|aa|ab
+M cr:"func"
+M cs:"function"
+M ct:"<function _RoboLogger.process_snapshot at 0x10e66f370>"
+TBV cr|cs|ct
+M cu:"return self._robot_output_impl.process_snapshot(hide_vars)"
+TBE cl|416|ce|cu
+TBV bC|cj|ck
+M cv:"hide_vars"
+TBV cv|t|u
+M cw:"/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py"
+M cx:"self._dump_threads(hide_vars)"
+TBE cw|748|ce|cx
+TBV cv|t|u
+TBV bR|bS|bT
+M cy:"entry_id"
+M cz:"'ps_0'"
+TBV cy|z|cz
+M cA:"entry_type"
+M cB:"'process_snapshot'"
+TBV cA|z|cB
+M cC:"psutil"
+M cD:"<module 'psutil' from '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/psutil/__init__.py'>"
+TBV cC|bS|cD
+M cE:"AccessDenied"
+M cF:"type"
+M cG:"<class 'psutil.AccessDenied'>"
+TBV cE|cF|cG
+M cH:"NoSuchProcess"
+M cI:"<class 'psutil.NoSuchProcess'>"
+TBV cH|cF|cI
+M cJ:"ZombieProcess"
+M cK:"<class 'psutil.ZombieProcess'>"
+TBV cJ|cF|cK
+M cL:"curr_process"
+M cM:"Process"
+M cN:"psutil.Process(pid=33752, name='python3.10', status='running', started='07:14:56')"
+TBV cL|cM|cN
+M cO:"log_info"
+M cP:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x10e7512d0>"
+TBV cO|cs|cP
+M cQ:"memory_info"
+M cR:"'Total: 16.0 G, Available: 648.1 M, Used: 96.0 %'"
+TBV cQ|z|cR
+M cS:"child_i"
+M cT:"0"
+TBV cS|aq|cT
+M cU:"child"
+TBV cU|cM|cN
+M cV:"name"
+M cW:"'python3.10'"
+TBV cV|z|cW
+M cX:"'running'"
+TBV N|z|cX
+M cY:"create_time"
+M cZ:"'07:14:56'"
+TBV cY|z|cZ
+M c0:"ppid"
+M c1:"'33709'"
+TBV c0|z|c1
+M c2:"cmdline"
+M c3:"'/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/bin/python3.10 -m robocorp.tasks run tasks.py'"
+TBV c2|z|c3
+M c4:"rss"
+M c5:"'121.2 M'"
+TBV c4|z|c5
+M c6:"vms"
+M c7:"'35.1 G'"
+TBV c6|z|c7
+M c8:"proc_memory_info"
+M c9:"pmem"
+M da:"pmem(rss=127045632, vms=37708906496, pfaults=48574, pageins=417)"
+TBV c8|c9|da
+M db:"'Current Process: python3.10 (pid: 33752, status: running)\\nCommand Line: /Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/bin/python3.10 -m robocorp.tasks run tasks.py\\nStarted: 07:14:56\\nParent pid: 33709\\nResident Set Size: 121.2 M\\nVirtual Memory Size: 35.1 G'"
+TBV at|z|db
+M dc:"_RoboOutputImpl"
+M dd:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x10dc5fca0>"
+TBV bC|dc|dd
+M de:"_dump_threads"
+M df:"stack.append((f, f.f_lineno))"
+TBE cw|769|de|df
+TBV bC|dc|dd
+TBV cv|t|u
+M dg:"thread_id"
+M dh:"8671609408"
+TBV dg|aq|dh
+M di:"frame"
+M dj:"<frame at 0x17825f240, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 773, code _dump_threads>"
+TBV di|di|dj
+M dk:"thread"
+M dl:"_MainThread"
+M dm:"<_MainThread(MainThread, started 8671609408)>"
+TBV dk|dl|dm
+M dn:"title"
+M do:"'MainThread|Thread ID: 8671609408 (non daemon)'"
+TBV dn|z|do
+M dp:"f"
+M dq:"<frame at 0x7fb02e023c10, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/tasks/_commands.py', line 494, code run>"
+TBV dp|di|dq
+M dr:"stack"
+M ds:"[(<frame at 0x10e6220e0, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x10e515440, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x7faffe85f970, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x7fafde4d3270, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x17825f240, file '/Users/Shared/robocorp/ht/3758767_b1f3c24_09529949/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
+TBV dr|aw|ds
+ETD 7.26
+EPS 7.26
+ET C|e|7.278
+ER C|7.278

@@ -10,7 +10,7 @@ from requests.auth import HTTPBasicAuth
 
 from RPA.Database import Database
 
-class FNBAPI:
+class BankAPI:
     def __init__(self, client_id, client_secret, base_url, auth_url, db_config):
         self.client_id = client_id
         self.client_secret = client_secret

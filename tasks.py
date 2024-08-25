@@ -26,7 +26,7 @@ transactions = []
 tag = "🥦🥦🥦 FNB Robot 🥦 "
 
 
-# http://localhost:8080/fnb/getFakeTransactions
+# http://localhost:8080/fnb/getFakeTransactions http://localhost:8080/fnb/getFakeTransactions
 @task
 def start():
     """Connect to Backend to get Transactions"""
@@ -35,22 +35,39 @@ def start():
     url = os.getenv("REMOTE_URL")
     if status == "dev":
         url = os.getenv("LOCAL_URL")
-        
+
     print(f"{tag} Environment status: {status}")
 
     try:
         f_url = f"{url}fnb/getFakeTransactions"
         print(f"{tag} Connecting to Backend ...: {f_url}")
         resp = requests.get(f_url)
-        if resp.status == 200:
-            transactions = resp.json()
-            print(f"{tag} response is OK : {len(transactions)}")
+        resp_json = resp.json()
+        status = resp_json["status"]
+        message = resp_json["message"]
+        list = resp_json["list"]
+        transactions = list
+
+        print(f"{tag} message: {message}")
+        print(f"{tag} status: {status}")
+
+        if status == 200:
+            print(
+                f"{tag} response is OK : 🌸 {len(transactions)} transactions delivered! 🌸"
+            )
+            for tx in list:
+                print(
+                    f"{tag} Transaction: 🍎 batch_id: {tx['batch_id']} 🍎 id: {tx['id']} 🍎 amount: {tx['amount']}"
+                )
+            print('\n')
+        else:
+            print(f"{tag} 👿 response is NOT OK : 👿 {resp_json} 👿")
 
     except Exception as e:
-        print(f"{tag} Error connecting to Backend: {str(e)}")
+        print(f"{tag} 👿 Error connecting to Backend: 👿 {str(e)}")
 
 
-@task
+
 def reconcile_fnb_transactions():
     
     client_id = os.getenv('CLIENT_ID')
