@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 from fpdf import FPDF
 from O365 import Account
 from O365.utils.token import FileSystemTokenBackend
+import requests
 from robocorp import vault
 from robocorp.tasks import task
 
@@ -21,13 +22,29 @@ from recon.recon_process import RECON
 
 load_dotenv()
 
+transactions = []
+tag = "🥦🥦🥦 FNB Robot 🥦"
+
+
+# http://localhost:8080/fnb/getFakeTransactions
+@task
 def start():
-    ''' Connect to Backend to get Transactions'''
+    """Connect to Backend to get Transactions"""
+    status = os.getenv("STATUS")
+    url = os.getenv("REMOTE_URL")
+    if status == "dev":
+        url = os.getenv("LOCAL_URL")
+
     try:
-        print(f'Connecting to Backend ...')
-        
+        f_url = f"{url}fnb/getFakeTransactions"
+        print(f"{tag} Connecting to Backend ...: {f_url}")
+        resp = requests.get(f_url)
+        if resp.status == 200:
+            transactions = resp.json()
+            print(f"{tag} response is OK : {len(transactions)}")
+
     except Exception as e:
-        print(f'Error connecting to Backend: {str(e)}')
+        print(f"{tag} Error connecting to Backend: {str(e)}")
 
 
 @task
