@@ -2,7 +2,6 @@
 # 🍎🍎🍎🍎 COMMAND TO PULL CODE
 #  ./pull.sh 
 
-
 echo "🔴 🔴 🔴 🔴 🔴 Tiger Robot GitHub Pull script starting ..."
 echo "🔴 🔴 🔴"
 

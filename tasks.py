@@ -19,11 +19,11 @@ from robocorp.tasks import task
 from RPA.Database import Database
 from bank.fnb import BankAPI
 from recon.recon_process import RECON
-
+ 
 load_dotenv()
 
 transactions = []
-tag = "🥦🥦🥦 FNB Robot 🥦"
+tag = "🥦🥦🥦 FNB Robot 🥦 "
 
 
 # http://localhost:8080/fnb/getFakeTransactions
