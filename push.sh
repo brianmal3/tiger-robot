@@ -41,6 +41,7 @@ fi
 echo
 # Add and commit the code
 echo "🎽🎽 - Adding and committing the code..."
+echo
 git add .
 git commit -m "$commit_message"
 

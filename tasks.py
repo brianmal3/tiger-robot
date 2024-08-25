@@ -19,7 +19,7 @@ from robocorp.tasks import task
 from RPA.Database import Database
 from bank.fnb import BankAPI
 from recon.recon_process import RECON
- 
+
 load_dotenv()
 
 transactions = []
@@ -30,10 +30,13 @@ tag = "🥦🥦🥦 FNB Robot 🥦 "
 @task
 def start():
     """Connect to Backend to get Transactions"""
+
     status = os.getenv("STATUS")
     url = os.getenv("REMOTE_URL")
     if status == "dev":
         url = os.getenv("LOCAL_URL")
+        
+    print(f"{tag} Environment status: {status}")
 
     try:
         f_url = f"{url}fnb/getFakeTransactions"
