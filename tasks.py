@@ -26,13 +26,12 @@ transactions = []
 tag = "🥦🥦🥦 FNB Robot 🥦 "
 
 
-# http://localhost:8080/fnb/getFakeTransactions http://localhost:8080/fnb/getFakeTransactions
 @task
 def fnb_robot():
     """Connect to Backend to get Transactions"""
 
     status = os.getenv("STATUS")
-    url = os.getenv("REMOTE_URL")
+    url = "https://recon-backend-service-734454946254.europe-west1.run.app/"
     if status == "dev":
         url = os.getenv("LOCAL_URL")
 
@@ -41,7 +40,7 @@ def fnb_robot():
     try:
         f_url = f"{url}fnb/getFakeTransactions"
         print(f"{tag} Connecting to Backend ...: {f_url}")
-        
+
         resp = requests.get(f_url)
         resp_json = resp.json()
         status = resp_json["status"]
@@ -66,7 +65,6 @@ def fnb_robot():
 
     except Exception as e:
         print(f"{tag} 👿 Error connecting to Backend: 👿 {str(e)}")
-
 
 
 def reconcile_fnb_transactions():
