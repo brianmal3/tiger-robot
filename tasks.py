@@ -28,7 +28,7 @@ tag = "🥦🥦🥦 FNB Robot 🥦 "
 
 # http://localhost:8080/fnb/getFakeTransactions http://localhost:8080/fnb/getFakeTransactions
 @task
-def start():
+def fnb_robot():
     """Connect to Backend to get Transactions"""
 
     status = os.getenv("STATUS")

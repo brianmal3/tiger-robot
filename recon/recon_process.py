@@ -11,6 +11,7 @@ from O365 import Account
 from O365.utils.token import FileSystemTokenBackend
 from robocorp import vault
 
+#todo - study in detail
 class RECON:
     def __init__(self, trans_data):
         self.trans_data = trans_data

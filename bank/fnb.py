@@ -22,7 +22,7 @@ class BankAPI:
         self.db_conn = None
         self.__auth_tokens()
     
-    
+    #todo - this will be gone ...
     def connect_to_database(self):
         try:
             self.db_conn = psycopg2.connect(**self.db_config)
